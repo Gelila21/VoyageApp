@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "307435734074",
+    "project_id": "vapp-4deaa",
+    "storage_bucket": "vapp-4deaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307435734074:android:ecba2074963a0660e0a103",
+        "android_client_info": {
+          "package_name": "Cpp.edu.hiking_event"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq96xc0H7YfYRKJe2jHnZPKv1PA_Y9c8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

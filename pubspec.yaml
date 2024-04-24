@@ -1,0 +1,45 @@
+name: hiking_event
+description: "A new Flutter project."
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  share: ^2.0.4
+  flutter_rating_bar: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+  google_fonts: ^4.0.4
+  firebase_auth: ^4.17.6
+  firebase_core: ^2.24.2
+  get: ^4.6.6
+  cloud_firestore: ^4.15.5
+  intl: any
+  cupertino_icons: ^1.0.6
+  firebase_storage: ^11.6.7
+  image_picker: ^1.0.7 # Adjust the version as needed
+  add_2_calendar: ^2.1.0
+  google_maps_flutter: ^2.0.6
+  http: ^1.2.1
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/launcher_icon.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  change_app_package_name: ^1.1.0
+
+  flutter_lints: ^3.0.0
